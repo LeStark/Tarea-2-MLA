@@ -1,0 +1,9 @@
+# Requerimientos principales para el proyecto
+pandas
+numpy
+matplotlib
+seaborn
+spacy
+tomotopy
+scikit-learn
+kagglehub

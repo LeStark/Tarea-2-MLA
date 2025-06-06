@@ -1,0 +1,14 @@
+{
+ "argv": [
+  "C:/Users/jlvar/OneDrive - Universidad del rosario/001 - MMACC/2025-1/002 - Aplicaicones ML/Tarea 2/Tarea2\\python.exe",
+  "-m",
+  "ipykernel_launcher",
+  "-f",
+  "{connection_file}"
+ ],
+ "display_name": "Python 3 (ipykernel)",
+ "language": "python",
+ "metadata": {
+  "debugger": true
+ }
+}

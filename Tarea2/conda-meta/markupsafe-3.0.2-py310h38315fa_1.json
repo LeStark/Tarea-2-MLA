@@ -1,0 +1,167 @@
+{
+  "build": "py310h38315fa_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [
+    "jinja2 >=3.0.0"
+  ],
+  "depends": [
+    "python >=3.10,<3.11.0a0",
+    "python_abi 3.10.* *_cp310",
+    "ucrt >=10.0.20348.0",
+    "vc >=14.2,<15",
+    "vc14_runtime >=14.29.30139"
+  ],
+  "extracted_package_dir": "C:\\Users\\jlvar\\anaconda3\\pkgs\\markupsafe-3.0.2-py310h38315fa_1",
+  "files": [
+    "Lib/site-packages/MarkupSafe-3.0.2.dist-info/INSTALLER",
+    "Lib/site-packages/MarkupSafe-3.0.2.dist-info/LICENSE.txt",
+    "Lib/site-packages/MarkupSafe-3.0.2.dist-info/METADATA",
+    "Lib/site-packages/MarkupSafe-3.0.2.dist-info/RECORD",
+    "Lib/site-packages/MarkupSafe-3.0.2.dist-info/REQUESTED",
+    "Lib/site-packages/MarkupSafe-3.0.2.dist-info/WHEEL",
+    "Lib/site-packages/MarkupSafe-3.0.2.dist-info/direct_url.json",
+    "Lib/site-packages/MarkupSafe-3.0.2.dist-info/top_level.txt",
+    "Lib/site-packages/markupsafe/__init__.py",
+    "Lib/site-packages/markupsafe/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/markupsafe/__pycache__/_native.cpython-310.pyc",
+    "Lib/site-packages/markupsafe/_native.py",
+    "Lib/site-packages/markupsafe/_speedups.c",
+    "Lib/site-packages/markupsafe/_speedups.cp310-win_amd64.pyd",
+    "Lib/site-packages/markupsafe/_speedups.pyi",
+    "Lib/site-packages/markupsafe/py.typed"
+  ],
+  "fn": "markupsafe-3.0.2-py310h38315fa_1.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "C:\\Users\\jlvar\\anaconda3\\pkgs\\markupsafe-3.0.2-py310h38315fa_1",
+    "type": 1
+  },
+  "md5": "79dfc050ae5a7dd4e63e392c984e2576",
+  "name": "markupsafe",
+  "package_tarball_full_path": "C:\\Users\\jlvar\\anaconda3\\pkgs\\markupsafe-3.0.2-py310h38315fa_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/MarkupSafe-3.0.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/MarkupSafe-3.0.2.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "489a8e1108509ed98a37bb983e11e0f7e1d31f0bd8f99a79c8448e7ff37d07ea",
+        "sha256_in_prefix": "489a8e1108509ed98a37bb983e11e0f7e1d31f0bd8f99a79c8448e7ff37d07ea",
+        "size_in_bytes": 1475
+      },
+      {
+        "_path": "Lib/site-packages/MarkupSafe-3.0.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "9e1a1a6e3ba9046e358ff2713c2277ca582b67a171f2830215b88b17d29a7ea7",
+        "sha256_in_prefix": "9e1a1a6e3ba9046e358ff2713c2277ca582b67a171f2830215b88b17d29a7ea7",
+        "size_in_bytes": 4067
+      },
+      {
+        "_path": "Lib/site-packages/MarkupSafe-3.0.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "98e97b1699c673abc9e262a20c94783d3324bf2a66108a5f4c304a1bb6454f64",
+        "sha256_in_prefix": "98e97b1699c673abc9e262a20c94783d3324bf2a66108a5f4c304a1bb6454f64",
+        "size_in_bytes": 1284
+      },
+      {
+        "_path": "Lib/site-packages/MarkupSafe-3.0.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/MarkupSafe-3.0.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "b5c77e1c3a6c92e813f066182b2ca277494e973a19b59756c1cae3e68ae6b5fa",
+        "sha256_in_prefix": "b5c77e1c3a6c92e813f066182b2ca277494e973a19b59756c1cae3e68ae6b5fa",
+        "size_in_bytes": 101
+      },
+      {
+        "_path": "Lib/site-packages/MarkupSafe-3.0.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "24e4823ee12ba60bd54046f9af5bd22eb8936f23aa420081fb5bc23f2346ff61",
+        "sha256_in_prefix": "24e4823ee12ba60bd54046f9af5bd22eb8936f23aa420081fb5bc23f2346ff61",
+        "size_in_bytes": 71
+      },
+      {
+        "_path": "Lib/site-packages/MarkupSafe-3.0.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "ab2d0f9637b9209bafb020637a32728430a310075c0cb2bfd9a81571ec7c67a5",
+        "sha256_in_prefix": "ab2d0f9637b9209bafb020637a32728430a310075c0cb2bfd9a81571ec7c67a5",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "Lib/site-packages/markupsafe/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b2bf94ebfdbb0df692ae3e639c763158dfa9be1336eec8e50e994c0cf64a9bb9",
+        "sha256_in_prefix": "b2bf94ebfdbb0df692ae3e639c763158dfa9be1336eec8e50e994c0cf64a9bb9",
+        "size_in_bytes": 13214
+      },
+      {
+        "_path": "Lib/site-packages/markupsafe/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "a733e1d0a3907f9b9bce1253b384bfdf3e69e12aa05d1b052fbc9d5e8c7497cf",
+        "sha256_in_prefix": "a733e1d0a3907f9b9bce1253b384bfdf3e69e12aa05d1b052fbc9d5e8c7497cf",
+        "size_in_bytes": 15362
+      },
+      {
+        "_path": "Lib/site-packages/markupsafe/__pycache__/_native.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "6d8d694062beb397e99ae5e97808b0bc4eb0e2806721336506a4024c17dc2200",
+        "sha256_in_prefix": "6d8d694062beb397e99ae5e97808b0bc4eb0e2806721336506a4024c17dc2200",
+        "size_in_bytes": 367
+      },
+      {
+        "_path": "Lib/site-packages/markupsafe/_native.py",
+        "path_type": "hardlink",
+        "sha256": "8522ecf099b3e5aa9acae7a780927791d4f93f0369056a4aae6412762a67742f",
+        "sha256_in_prefix": "8522ecf099b3e5aa9acae7a780927791d4f93f0369056a4aae6412762a67742f",
+        "size_in_bytes": 210
+      },
+      {
+        "_path": "Lib/site-packages/markupsafe/_speedups.c",
+        "path_type": "hardlink",
+        "sha256": "3bb5ee9664e8f9ea48ea7d85b4c54eac95e5f0401a2300f688d626048e521284",
+        "sha256_in_prefix": "3bb5ee9664e8f9ea48ea7d85b4c54eac95e5f0401a2300f688d626048e521284",
+        "size_in_bytes": 4149
+      },
+      {
+        "_path": "Lib/site-packages/markupsafe/_speedups.cp310-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "4db62fd50daedd8448c94daf03e831119066ca2a174bb7dbef8ffceaaa1821de",
+        "sha256_in_prefix": "4db62fd50daedd8448c94daf03e831119066ca2a174bb7dbef8ffceaaa1821de",
+        "size_in_bytes": 12800
+      },
+      {
+        "_path": "Lib/site-packages/markupsafe/_speedups.pyi",
+        "path_type": "hardlink",
+        "sha256": "10d7756d87bb81b0547f6cb0c9858e194a675ce1cd27e7204cda9eb655bc8799",
+        "sha256_in_prefix": "10d7756d87bb81b0547f6cb0c9858e194a675ce1cd27e7204cda9eb655bc8799",
+        "size_in_bytes": 41
+      },
+      {
+        "_path": "Lib/site-packages/markupsafe/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "deb8505b7ef76d363174d133e2ff814ae75b91ac4c3ae5550a7686897392f4d0",
+  "size": 25941,
+  "subdir": "win-64",
+  "timestamp": 1733220087000,
+  "url": "https://conda.anaconda.org/conda-forge/win-64/markupsafe-3.0.2-py310h38315fa_1.conda",
+  "version": "3.0.2"
+}
