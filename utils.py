@@ -278,3 +278,23 @@ def validar_kfold_slda_1(k, documentos, etiquetas, folds=5, iteraciones=100):
     return np.mean(scores)
 
 
+def graficar_todos_los_temas_en_una_figura(modelo, num_temas=17, top_n=10):
+    cols = 4
+    rows = (num_temas + cols - 1) // cols  # Cálculo para ajustar la última fila si es impar
+
+    fig, axes = plt.subplots(rows, cols, figsize=(20, 4 * rows))
+    axes = axes.flatten()
+
+    for k in range(num_temas):
+        palabras, pesos = zip(*modelo.get_topic_words(k, top_n=top_n))
+        axes[k].barh(palabras[::-1], pesos[::-1])
+        axes[k].set_title(f"Tema #{k}")
+        axes[k].set_xlabel("Peso")
+        axes[k].invert_yaxis()
+
+    # Oculta los ejes que no se usan si hay menos de 20 temas
+    for i in range(num_temas, len(axes)):
+        axes[i].axis("off")
+
+    plt.tight_layout()
+    plt.show()

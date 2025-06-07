@@ -32,24 +32,6 @@ Desarrollar un pipeline completo que:
 Se utiliza el conjunto de datos [The Movies Dataset](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset), que contiene información sobre más de 45.000 películas.  
 Los archivos muy grandes (`credits.csv`, `ratings.csv`) fueron excluidos del repositorio.
 
-## ⚙️ Instalación
-
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/tu-usuario/tu-repo.git
-   cd tu-repo
-   ```
-
-2. Instala las dependencias:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Descarga el modelo de spaCy:
-   ```bash
-   python -m spacy download en_core_web_sm
-   ```
-
 ## 🚀 Uso
 
 Ejecuta el notebook `notebook.ipynb` para reproducir todo el flujo de análisis:
@@ -65,3 +47,24 @@ Ejecuta el notebook `notebook.ipynb` para reproducir todo el flujo de análisis:
 - Entrenamiento con etiquetas `y_real` que identifican películas de género Drama.
 - Clasificador auxiliar: regresión logística sobre las distribuciones de tópicos.
 - Validación cruzada `k-fold` para encontrar el mejor número de temas (`k`).
+
+| Tema | Palabras Clave Principales                                             | Título Propuesto                     |
+|------|------------------------------------------------------------------------|--------------------------------------|
+| 0    | film, documentary, world, life, history                                | Documentales y Cine Histórico        |
+| 1    | doctor, hospital, patient, mental, disease                             | Salud y Enfermedades Mentales        |
+| 2    | murder, police, crime, prison, kill                                    | Crimen y Justicia Penal              |
+| 3    | school, student, high, girl, teacher                                   | Vida Escolar y Adolescencia          |
+| 4    | team, game, win, player, football                                      | Deportes y Competencias              |
+| 5    | war, country, american, story, group                                   | Conflictos Bélicos y Sociedad        |
+| 6    | life, story, man, world, young                                         | Existencia, Identidad y Superación   |
+| 7    | love, woman, young, fall, husband                                      | Romance y Relaciones de Pareja       |
+| 8    | film, movie, story, play, base                                         | Cine y Producción Fílmica            |
+| 9    | family, year, old, father, young                                       | Dinámicas Familiares                 |
+| 10   | money, work, job, company, business                                    | Trabajo y Ambición Económica         |
+| 11   | man, dance, king, street, building                                     | Vida Urbana y Expresión Artística    |
+| 12   | mysterious, kill, dead, find, house                                    | Misterio y Terror Doméstico          |
+| 13   | friend, find, time, day, night                                         | Amistad y Paso del Tiempo            |
+| 14   | man, gang, town, set, battle                                           | Violencia y Lucha Territorial        |
+| 15   | earth, island, world, crew, ship                                       | Exploración y Aventuras Fantásticas  |
+| 16   | comedy, stand, special, music, star                                    | Comedia y Espectáculo en Vivo        |
+
